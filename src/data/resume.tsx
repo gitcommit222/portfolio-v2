@@ -160,7 +160,7 @@ export const DATA = {
 			technologies: [
 				"Next.js",
 				"Typescript",
-				"PostgreSQL",
+				"MongoDB",
 				"Mongoose",
 				"TailwindCSS",
 				"Stripe",
