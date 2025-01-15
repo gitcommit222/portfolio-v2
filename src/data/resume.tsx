@@ -79,6 +79,18 @@ export const DATA = {
 
 	work: [
 		{
+			company: "Freelance",
+			badges: [],
+			href: "",
+			location: "Remote",
+			title: "Web Developer",
+			logoUrl: "/code.png",
+			start: "October 2022",
+			end: "Present",
+			description:
+				"Developed and deployed various full-stack web applications for clients using modern technologies. Implemented responsive front-end designs with React and Next.js, built robust back-end APIs using Node.js and Express, and integrated PostgreSQL databases. Utilized Git for version control and deployed applications on cloud platforms like Vercel and Heroku.",
+		},
+		{
 			company: "Batangas State University - DTC Intern",
 			href: "https://batstateu.edu.ph/",
 			badges: [],
@@ -91,16 +103,16 @@ export const DATA = {
 				"Developed a frontend user interface for Web and Mobile Projects of the Digital Transformation Center (DTC) and collaborate with the other intern and staffs.",
 		},
 		{
-			company: "Freelance",
+			company: "Batangas State University",
+			href: "https://batstateu.edu.ph/",
 			badges: [],
-			href: "",
-			location: "Remote",
-			title: "Web Developer",
-			logoUrl: "/code.png",
-			start: "October 2023",
+			location: "Alangilan, Batangas City, Batangas",
+			title: "University Researcher (Full Stack Web Developer)",
+			logoUrl: "/batstateu_logo.png",
+			start: "September 2024",
 			end: "Present",
 			description:
-				"Developed and deployed various full-stack web applications for clients using modern technologies. Implemented responsive front-end designs with React and Next.js, built robust back-end APIs using Node.js and Express, and integrated PostgreSQL databases. Utilized Git for version control and deployed applications on cloud platforms like Vercel and Heroku.",
+				"Developed a frontend user interface for Web and Mobile Projects of the Digital Transformation Center (DTC) and collaborate with the other intern and staffs.",
 		},
 	],
 	education: [
@@ -114,6 +126,38 @@ export const DATA = {
 		},
 	],
 	projects: [
+		{
+			title: "BatStateU Marketplace",
+			href: "http://atlas.batstate-u.edu.ph/marketplace/",
+			dates: "Nov 2024 - Dec 2024",
+			active: false,
+			description:
+				"A simple e-commerce platform for Batangas State University students to buy and sell products.",
+			technologies: [
+				"Typescript",
+				"Next.js",
+				"MySQL",
+				"Sequelize",
+				"TailwindCSS",
+				"Shadcn",
+				"Tanstack Query",
+				"Vercel",
+			],
+			links: [
+				{
+					type: "Website",
+					href: "http://atlas.batstate-u.edu.ph/marketplace/",
+					icon: <Icons.globe className="size-3" />,
+				},
+				{
+					type: "Source",
+					href: "https://github.com/Marnel8/bsu_marketplace",
+					icon: <Icons.github className="size-3" />,
+				},
+			],
+			image: "",
+			video: "/marketplace.mp4",
+		},
 		{
 			title: "BatStateU RMS",
 			href: "",
@@ -152,7 +196,7 @@ export const DATA = {
 		},
 		{
 			title: "Metamorphose AI",
-			href: "https://metamorphose-fcvnu3je6-gitcommit222s-projects.vercel.app/",
+			href: "https://metamorphose-ai.vercel.app",
 			dates: "Jan 2024 - Feb 2024",
 			active: true,
 			description:
@@ -170,7 +214,7 @@ export const DATA = {
 			links: [
 				{
 					type: "Website",
-					href: "https://metamorphose-fcvnu3je6-gitcommit222s-projects.vercel.app/",
+					href: "https://metamorphose-ai.vercel.app",
 					icon: <Icons.globe className="size-3" />,
 				},
 				{
@@ -185,7 +229,7 @@ export const DATA = {
 
 		{
 			title: "Paluan Tour",
-			href: "",
+			href: "https://paluan-tour.vercel.app",
 			dates: "August 2024 - October 2024",
 			active: false,
 			description:
@@ -199,6 +243,11 @@ export const DATA = {
 				"Tanstack Query",
 			],
 			links: [
+				{
+					type: "Website",
+					href: "https://paluan-tour.vercel.app",
+					icon: <Icons.globe className="size-3" />,
+				},
 				{
 					type: "Source",
 					href: "https://github.com/gitcommit222/paluan-tour-monitoring",
